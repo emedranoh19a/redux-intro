@@ -6,8 +6,6 @@ import App from "./App";
 
 import store from "./store";
 
-store.dispatch({ type: "customer/updateName", payload: "Eric rules" });
-console.log(store.getState());
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
